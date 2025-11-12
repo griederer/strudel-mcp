@@ -1,0 +1,51 @@
+{
+  "name": "strudel-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for natural language control of Strudel live coding music environment from Claude Code",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "strudel-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Tests coming soon\" && exit 0",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "keywords": [
+    "mcp",
+    "strudel",
+    "live-coding",
+    "music",
+    "ai",
+    "claude",
+    "tidalcycles",
+    "algorithmic-music",
+    "web-audio"
+  ],
+  "author": "Gonzalo Riederer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/griederer/strudel-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/griederer/strudel-mcp/issues"
+  },
+  "homepage": "https://github.com/griederer/strudel-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}

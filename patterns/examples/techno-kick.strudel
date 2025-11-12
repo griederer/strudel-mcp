@@ -1,0 +1,8 @@
+# Pattern Name: techno-kick
+# Created: 2025-01-12T14:00:00Z
+# Modified: 2025-01-12T14:00:00Z
+# BPM: 128
+# Description: Classic 4 on the floor techno kick with reverb
+# Tags: techno, kick, 4x4
+
+s("bd bd bd bd").room(0.5).size(0.8)

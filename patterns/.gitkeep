@@ -1,0 +1,7 @@
+# This directory stores saved Strudel patterns
+#
+# Patterns are saved as .strudel files containing:
+# - Metadata (name, date, BPM, description)
+# - Strudel pattern code
+#
+# Example: techno-beat-v1.strudel
